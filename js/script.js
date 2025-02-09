@@ -1,4 +1,3 @@
-
 function remove_character_at_index(str, index) {
     if (index < 0 || index >= str.length) {
         return str;
@@ -53,7 +52,7 @@ function relation(character){
         
     else if(character == "m")
         {
-            return "mariage";
+            return "marriage";
         }
         
     else if(character == "e")
