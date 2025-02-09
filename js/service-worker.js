@@ -8,8 +8,8 @@ const urlsToCache = [
     './assets/icons/favicon-16x16.png',
     './assets/icons/android-chrome-192x192.png',
     './assets/icons/android-chrome-512x512.png',
-    './js/script.js',
-    './site.webmanifest'
+    '../assets/site.webmanifest',
+    './js/script.js'
 ];
 
 self.addEventListener('install', function(event) {
